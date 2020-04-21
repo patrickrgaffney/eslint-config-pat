@@ -1,0 +1,20 @@
+# macos
+.DS_Store
+
+# node
+node_modules/
+
+# deployment
+dist/
+.env
+
+# IDEs
+.idea
+.vscode
+
+# linter & hooks
+.eslintcache
+.stylelintcache
+
+# testing & coverage
+coverage

@@ -10,8 +10,12 @@
     "eslint",
     "config",
     "styleguide",
-    "eslintconfig"
+    "eslint-config"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickrgaffney/eslint-config-pat"
+  },
   "author": "Pat Gaffney <pat@hypepat.com>",
   "license": "MIT",
   "peerDependencies": {

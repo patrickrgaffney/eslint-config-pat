@@ -1,5 +1,5 @@
 /**
- * ESLint configuration file - Node.js
+ * ESLint configuration file - Node.js config
  *
  * An object must be exported from this file containing the
  * configuration. Anything in this file can be overridden by suppling

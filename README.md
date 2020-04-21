@@ -10,7 +10,7 @@ npm install --save-dev eslint-config-pat
 
 ## Use
 
-There are three different configs shared via this package:
+This package takes advantage of ESLint's [shared multiple configs][eslint-configs] — that is, there are three different configs shared via this package:
 
 - `pat`: For linting Javascript.
 - `pat/node`: For linting Node.js projects.
@@ -73,3 +73,5 @@ module.exports = {
   extends: "pat/react",
 }
 ```
+
+[eslint-configs]: https://eslint.org/docs/developer-guide/shareable-configs#sharing-multiple-configs

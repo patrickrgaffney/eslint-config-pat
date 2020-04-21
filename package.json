@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-pat",
+  "version": "0.0.1",
+  "description": "Pat-specific ESLint config. Same great taste, same low price.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "styleguide",
+    "eslintconfig"
+  ],
+  "author": "Pat Gaffney <pat@hypepat.com>",
+  "license": "MIT"
+}

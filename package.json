@@ -13,5 +13,8 @@
     "eslintconfig"
   ],
   "author": "Pat Gaffney <pat@hypepat.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=6.7.0"
+  }
 }

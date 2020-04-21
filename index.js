@@ -173,18 +173,6 @@ module.exports = {
       "variables": true,
     }],
 
-    // ESLint: Node.js and CommonJS
-    "global-require": [ "error" ],
-    "no-buffer-constructor": [ "error" ],
-    "no-mixed-requires": [ "error", { "grouping": false, "allowCall": false }],
-    "no-new-require": [ "error" ],
-    "no-path-concat": [ "error" ],
-    "no-restricted-modules": [ "error", {
-      "name": "lodash",
-      "message": "Use specific 'lodash/FUNCTION' packages.",
-    }],
-    "no-sync": [ "error" ],
-
     // ESLint: Stylistic Issues
     "array-bracket-newline": [ "error", "consistent" ],
     "array-bracket-spacing": [ "error", "always", {

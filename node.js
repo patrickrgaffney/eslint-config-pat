@@ -47,5 +47,16 @@ module.exports = {
     "node/prefer-global/url": [ "error", "never" ],
     "node/prefer-promises/dns": [ "error" ],
     "node/prefer-promises/fs": [ "error" ],
+
+    // Old ESLint Node.js rules deprecated in v7.0.0 and moved to this plugin.
+    "node/global-require": [ "error" ],
+    "node/no-mixed-requires": [ "error", { "grouping": false, "allowCall": false }],
+    "node/no-new-require": [ "error" ],
+    "node/no-path-concat": [ "error" ],
+    "node/no-restricted-modules": [ "error", [{
+      "name": "lodash",
+      "message": "Use specific 'lodash/FUNCTION' packages.",
+    }]],
+    "node/no-sync": [ "error" ],
   },
 }

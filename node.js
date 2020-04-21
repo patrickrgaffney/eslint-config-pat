@@ -10,6 +10,7 @@ module.exports = {
   "extends": "pat",
   "env": {
     "node": true,
+    "browser": false,
   },
   "plugins": [ "node" ],
   "parserOptions": {

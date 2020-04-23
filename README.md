@@ -40,7 +40,7 @@ module.exports = {
 
 - **Requires**:
     - `eslint >=6.8.0`
-    - `eslint-plugin-node >=11.0.0`
+    - `eslint-plugin-node >=11.1.0`
 
 The `pat/node` configuration is used for linting Node.js projects. It extends from the `pat` base config, while adding rules from `eslint-plugin-node`.
 

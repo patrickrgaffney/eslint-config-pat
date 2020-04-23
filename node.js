@@ -53,7 +53,7 @@ module.exports = {
     "node/no-mixed-requires": [ "error", { "grouping": false, "allowCall": false }],
     "node/no-new-require": [ "error" ],
     "node/no-path-concat": [ "error" ],
-    "node/no-restricted-modules": [ "error", [{
+    "node/no-restricted-require": [ "error", [{
       "name": "lodash",
       "message": "Use specific 'lodash/FUNCTION' packages.",
     }]],

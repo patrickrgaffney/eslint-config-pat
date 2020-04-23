@@ -14,7 +14,7 @@ module.exports = {
   },
   "plugins": [ "node" ],
   "parserOptions": {
-    "sourceType": "script",
+    "sourceType": "module",
     "ecmaFeatures": {
       "globalReturn": false,
       "impliedStrict": true,

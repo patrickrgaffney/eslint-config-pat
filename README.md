@@ -59,7 +59,7 @@ module.exports = {
 
 - **Requires**:
     - `eslint >=6.8.0`
-    - `eslint-plugin-react >=11.0.0`
+    - `eslint-plugin-react >=7.19.0`
 
 The `pat/react` configuration is used for linting React.js projects. It extends from the `pat` base config, while adding rules from `eslint-plugin-react`.
 

@@ -21,7 +21,7 @@ All configs rely on `eslint`, but the most specific configs rely on plugins as w
 ### `pat`: Base Config
 
 - **Requires**:
-    - `eslint >=6.8.0`
+    - `eslint >=7.0.0`
 
 The `pat` configuration is the base for this package. It **only** declares rules that are shipped with ESLint — therefore it relies on no plugins. It's useful for linting really any Javascript.
 
@@ -39,7 +39,7 @@ module.exports = {
 ### `pat/node`: Node.js Config
 
 - **Requires**:
-    - `eslint >=6.8.0`
+    - `eslint >=7.0.0`
     - `eslint-plugin-node >=11.1.0`
 
 The `pat/node` configuration is used for linting Node.js projects. It extends from the `pat` base config, while adding rules from `eslint-plugin-node`.
@@ -58,7 +58,7 @@ module.exports = {
 ### `pat/react`: React.js Config
 
 - **Requires**:
-    - `eslint >=6.8.0`
+    - `eslint >=7.0.0`
     - `eslint-plugin-react >=7.19.0`
 
 The `pat/react` configuration is used for linting React.js projects. It extends from the `pat` base config, while adding rules from `eslint-plugin-react`.

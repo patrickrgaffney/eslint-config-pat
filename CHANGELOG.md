@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Features
 
+- **pat**: Change `sourceType` to always be `module`.
 - **pat**: Add new [`default-case-last`][default-case-last] ESLint rule.
 - **pat**: Add new [`no-useless-backreference`][no-useless-backreference] ESLint rule.
 - **pat**: Turn on new `enforceForLogicalOperands` option to [`no-extra-boolean-cast`][no-extra-boolean-cast] ESLint rule.

@@ -41,7 +41,7 @@ module.exports = {
     "no-empty": [ "error" ],
     "no-empty-character-class": [ "error" ],
     "no-ex-assign": [ "error" ],
-    "no-extra-boolean-cast": [ "error" ],
+    "no-extra-boolean-cast": [ "error", { "enforceForLogicalOperands": true }],
     "no-extra-parens": [ "error", "all" ],
     "no-extra-semi": [ "error" ],
     "no-func-assign": [ "error" ],

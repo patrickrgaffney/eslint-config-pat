@@ -42,7 +42,7 @@ module.exports = {
     "no-empty-character-class": [ "error" ],
     "no-ex-assign": [ "error" ],
     "no-extra-boolean-cast": [ "error" ],
-    "no-extra-parens": [ "error" ],
+    "no-extra-parens": [ "error", "all" ],
     "no-extra-semi": [ "error" ],
     "no-func-assign": [ "error" ],
     "no-import-assign": [ "error" ],

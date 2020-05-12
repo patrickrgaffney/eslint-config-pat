@@ -19,7 +19,7 @@
   "author": "Pat Gaffney <pat@hypepat.com>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=6.7.0",
+    "eslint": ">=7.0.0",
     "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-react": ">=7.19.0"
   }

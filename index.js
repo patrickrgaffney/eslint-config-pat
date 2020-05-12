@@ -13,7 +13,7 @@ module.exports = {
   "plugins": [],
   "parserOptions": {
     "ecmaVersion": 2020,
-    "sourceType": "script",
+    "sourceType": "module",
     "ecmaFeatures": {
       "globalReturn": false,
       "impliedStrict": true,

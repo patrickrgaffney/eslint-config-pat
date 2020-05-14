@@ -2,7 +2,7 @@
 
 > Same great taste, same low price!
 
-A very me-specific ESLint config.
+A very me-specific [ESLint][eslint] config.
 
 ```sh
 npm install --save-dev eslint-config-pat
@@ -10,11 +10,12 @@ npm install --save-dev eslint-config-pat
 
 ## Use
 
-This package takes advantage of ESLint's [shared multiple configs][eslint-configs] — that is, there are three different configs shared via this package:
+This package takes advantage of ESLint's [shared multiple configs][eslint-configs] — that is, there are four different configs shared via this package:
 
 - `pat`: For linting Javascript.
-- `pat/node`: For linting Node.js projects.
-- `pat/react`: For linting React.js projects.
+- `pat/node`: For linting [Node.js][node] projects.
+- `pat/react`: For linting [React.js][react] projects.
+- `pat/mocha`: For linting [Mocha][mocha] test suites.
 
 All configs rely on `eslint`, but the most specific configs rely on plugins as well.
 
@@ -23,7 +24,7 @@ All configs rely on `eslint`, but the most specific configs rely on plugins as w
 - **Requires**:
     - `eslint >=7.0.0`
 
-The `pat` configuration is the base for this package. It **only** declares rules that are shipped with ESLint — therefore it relies on no plugins. It's useful for linting really any Javascript.
+The `pat` configuration is the base for this package. It **only** declares rules that are shipped with [ESLint][eslint] — therefore it relies on no plugins. It's useful for linting really any Javascript.
 
 Example usage:
 
@@ -42,7 +43,7 @@ module.exports = {
     - `eslint >=7.0.0`
     - `eslint-plugin-node >=11.1.0`
 
-The `pat/node` configuration is used for linting Node.js projects. It extends from the `pat` base config, while adding rules from `eslint-plugin-node`.
+The `pat/node` configuration is used for linting [Node.js][node] projects. It extends from the `pat` base config, while adding rules from [`eslint-plugin-node`][eslint-node].
 
 Example usage:
 
@@ -61,7 +62,7 @@ module.exports = {
     - `eslint >=7.0.0`
     - `eslint-plugin-react >=7.19.0`
 
-The `pat/react` configuration is used for linting React.js projects. It extends from the `pat` base config, while adding rules from `eslint-plugin-react`.
+The `pat/react` configuration is used for linting [React.js][react] projects. It extends from the `pat` base config, while adding rules from [`eslint-plugin-react`][eslint-react].
 
 Example usage:
 

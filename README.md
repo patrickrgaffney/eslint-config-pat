@@ -74,4 +74,30 @@ module.exports = {
 }
 ```
 
+### `pat/mocha`: Mocha Config
+
+- **Requires**:
+    - `eslint >=7.0.0`
+    - `eslint-plugin-mocha >=7.0.0`
+
+The `pat/mocha` configuration is used for linting [Mocha][mocha] test suites. It extends from the `pat` base config, while adding rules from [`eslint-plugin-mocha`][eslint-mocha].
+
+Example usage:
+
+```js
+/**
+ * .eslintrc.js
+ */
+module.exports = {
+  extends: "pat/mocha",
+}
+```
+
+[eslint]: https://eslint.org/
 [eslint-configs]: https://eslint.org/docs/developer-guide/shareable-configs#sharing-multiple-configs
+[eslint-mocha]: https://github.com/lo1tuma/eslint-plugin-mocha
+[eslint-node]: https://github.com/mysticatea/eslint-plugin-node
+[eslint-react]: https://github.com/yannickcr/eslint-plugin-react
+[mocha]: https://mochajs.org/
+[node]: https://nodejs.org/
+[react]: https://reactjs.org/

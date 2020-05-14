@@ -1,7 +1,9 @@
-/**
- * .eslintrc.js
- */
+const pat = require('../../index.js')
+
 module.exports = {
-  extends: '../../index.js',
-  env: { node: true },
+  ...pat,
+  env: {
+    node: true,
+    es6: true,
+  },
 }

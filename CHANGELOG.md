@@ -7,9 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]()
 
+### Features
+
+- **pat/mocha**: New config for linting [Mocha][mocha] test suites.
+
 ### Dependencies
 
-- `eslint-plugin-react` now requires semver `>=7.20.0`
+- install `eslint-plugin-mocha`: `>=7.0.0`
+- upgrade `eslint-plugin-react`: `>=7.20.0`
+
+[mocha]: https://mochajs.org/
 
 ## [v2.0.0]() - 2020-05-12
 
@@ -20,9 +27,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **pat**: Add new [`no-useless-backreference`][no-useless-backreference] ESLint rule.
 - **pat**: Turn on new `enforceForLogicalOperands` option to [`no-extra-boolean-cast`][no-extra-boolean-cast] ESLint rule.
 
+[default-case-last]: https://eslint.org/docs/rules/default-case-last
+[no-extra-boolean-cast]: https://eslint.org/docs/rules/no-extra-boolean-cast
+[no-useless-backreference]: https://eslint.org/docs/rules/no-useless-backreference
+
 ### Dependencies
 
-- `eslint` now requires semver `>=7.0.0`
+- upgrade `eslint`: `>=7.0.0`
 
 ## [v1.1.0]() - 2020-04-23
 
@@ -32,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 
-- `eslint-plugin-node` now requires semver `>=11.1.0`.
+- upgrade `eslint-plugin-node`: `>=11.1.0`.
 
 ## [v1.0.1]() - 2020-04-23
 
@@ -43,7 +54,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.0.0]() - 2020-04-20
 
 Initial public release.
-
-[default-case-last]: https://eslint.org/docs/rules/default-case-last
-[no-extra-boolean-cast]: https://eslint.org/docs/rules/no-extra-boolean-cast
-[no-useless-backreference]: https://eslint.org/docs/rules/no-useless-backreference

@@ -22,6 +22,10 @@ module.exports = {
     },
   },
   "rules": {
+    // ESLint overrides.
+    "no-magic-numbers": [ "off" ],
+
+    // Mocha rules.
     "mocha/max-top-level-suites": [ "error", { "limit": 1 }],
     "mocha/no-async-describe": [ "error" ],
     "mocha/no-exclusive-tests": [ "error" ],

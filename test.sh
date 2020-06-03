@@ -13,7 +13,7 @@ DEPS=$(jq -rc '.peerDependencies | to_entries | map("\(.key)@\(.value|tostring|s
 
 echo "Installing eslint dependencies: $DEPS"
 # shellcheck disable=SC2086
-npm i --no-save $DEPS &>/dev/null
+npm i --no-save $DEPS
 
 echo "Listing dependencies"
 npm ls

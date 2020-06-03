@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [v2.2.0][v2.2.0] - 2020-06-02
 
 ### Added
 
@@ -27,14 +27,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [no-lose-of-precision]: https://eslint.org/docs/rules/no-loss-of-precision
 
-## [v2.1.1]() - 2020-05-14
+## [v2.1.1][v2.1.1] - 2020-05-14
 
 ### Fixed
 
 - Ignore all test files and scripts when publishing NPM package.
 - Add LICENSE file.
 
-## [v2.1.0]() - 2020-05-14
+## [v2.1.0][v2.1.0] - 2020-05-14
 
 ### Features
 
@@ -48,7 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [mocha]: https://mochajs.org/
 
-## [v2.0.0]() - 2020-05-12
+## [v2.0.0][v2.0.0] - 2020-05-12
 
 ### Features
 
@@ -65,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - upgrade `eslint`: `>=7.0.0`
 
-## [v1.1.0]() - 2020-04-23
+## [v1.1.0][v1.1.0] - 2020-04-23
 
 ### Updated
 
@@ -75,12 +75,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - upgrade `eslint-plugin-node`: `>=11.1.0`.
 
-## [v1.0.1]() - 2020-04-23
+## [v1.0.1][v1.0.1] - 2020-04-23
 
 ### Fixed
 
 - **pat/node**: `node/no-restricted-require` rules had incorrect name (`node/no-restricted-modules`).
 
-## [v1.0.0]() - 2020-04-20
+## [v1.0.0][v1.0.0] - 2020-04-20
 
 Initial public release.
+
+
+[v2.2.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v2.2.0
+[v2.1.1]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v2.1.1
+[v2.1.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v2.1.1
+[v2.0.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v2.0.0
+[v1.1.1]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v1.1.1
+[v1.0.1]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v1.0.1
+[v1.0.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v1.0.0

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- **pat:** new ESLint rule [`no-lose-of-precision`][no-lose-of-precision].
+
 ### Fixed
 
 - Change `node` engine to `>=12.x`.
@@ -20,6 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - upgrade `eslint@7.1.0`
 - upgrade `eslint-plugin-mocha@7.0.1`
+
+[no-lose-of-precision]: https://eslint.org/docs/rules/no-loss-of-precision
 
 ## [v2.1.1]() - 2020-05-14
 

@@ -11,7 +11,7 @@
 # following format: "package-name@semver".
 DEPS=$(jq -rc '.peerDependencies | to_entries | map("\(.key)@\(.value|tostring|split(">=")|last)")|.[]' < package.json)
 
-echo "Installing eslint dependencies"
+echo "Installing eslint dependencies: $DEPS"
 # shellcheck disable=SC2086
 npm i --no-save $DEPS &>/dev/null
 

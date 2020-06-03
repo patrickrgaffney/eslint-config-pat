@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Change `node` engine to `>=12.x`.
 
+### CI/CD
+
+- Add CI action to run tests on pull request.
+
 ### Dependencies
 
 - upgrade `eslint@7.1.0`

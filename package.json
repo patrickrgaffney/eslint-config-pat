@@ -23,7 +23,7 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">=7.1.0",
-    "eslint-plugin-mocha": ">=7.0.0",
+    "eslint-plugin-mocha": ">=7.0.1",
     "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-react": ">=7.20.0"
   }

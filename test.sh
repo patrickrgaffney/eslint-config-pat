@@ -15,6 +15,9 @@ echo "Installing eslint dependencies"
 # shellcheck disable=SC2086
 npm i --no-save $DEPS &>/dev/null
 
+echo "Listing dependencies"
+npm ls
+
 # Run a test for each directory in tests/*.
 for test in tests/*; do
   name=$(basename "$test")

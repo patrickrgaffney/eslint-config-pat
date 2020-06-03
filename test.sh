@@ -29,29 +29,3 @@ for test in tests/*; do
 done
 
 echo "All configs used successfully"
-
-# # "pat" config
-# if ! eslint --fix tests/js/pat.js; then
-#   echo "Failed to lint using the 'pat' config"
-#   exit 1
-# fi
-
-# # "pat/node" config
-# if ! eslint --fix tests/node/pat_node.js; then
-#   echo "Failed to lint using the 'pat/node' config"
-#   exit 1
-# fi
-
-# # "pat/react" config
-# if ! eslint --fix tests/react/pat_react.js; then
-#   echo "Failed to lint using the 'pat/react' config"
-#   exit 1
-# fi
-
-# # "pat/mocha" config
-# if ! eslint --fix tests/mocha/pat_mocha.js; then
-#   echo "Failed to lint using the 'pat/mocha' config"
-#   exit 1
-# fi
-
-# echo "All configs used successfully"

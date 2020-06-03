@@ -20,7 +20,7 @@ for test in tests/*; do
   name=$(basename "$test")
   echo "Running \"$name\" test"
 
-  if ! ./node_modules/.bin/eslint "$test"/*; then
+  if ! "$(npm bin)/eslint" "$test"/*; then
     echo "Failed to lint using \"$name\" config"
     exit 1
   else

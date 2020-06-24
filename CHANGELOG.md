@@ -7,9 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- **pat**: new ESLint rule [`no-unreachable-loop`][no-unreachable-loop]
+- **pat**: new ESLint rule [`no-promise-executor-return`][no-promise-executor-return]
+
 ### Dependencies
 
 - upgrade `eslint@7.3.1`
+
+[no-promise-executor-return]: https://eslint.org/docs/rules/no-promise-executor-return
+[no-unreachable-loop]: https://eslint.org/docs/rules/no-unreachable-loop
 
 ## [v2.2.0][v2.2.0] - 2020-06-02
 

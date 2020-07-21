@@ -7,9 +7,10 @@
 # to ensure they're working properly.
 #
 
-# List of peer dependencies from package.json in the
-# following format: "package-name@semver".
+# List of peer and optional dependencies from package.json
+# in the following format: "package-name@semver".
 DEPS=$(jq -rc '.peerDependencies | to_entries | map("\(.key)@\(.value|tostring|split(">=")|last)")|.[]' < package.json | tr '\n' ' ')
+DEPS+=$(jq -rc '.optionalDependencies | to_entries | map("\(.key)@\(.value|tostring|split(">=")|last)")|.[]' < package.json | tr '\n' ' ')
 
 echo "Installing eslint dependencies: $DEPS"
 # shellcheck disable=SC2086

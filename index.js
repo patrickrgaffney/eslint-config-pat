@@ -339,6 +339,7 @@ module.exports = {
       "ignoreDeclarationSort": false,
       "ignoreMemberSort": false,
       "memberSyntaxSortOrder": [ "none", "all", "single", "multiple" ],
+      "allowSeparatedGroups": true,
     }],
     "symbol-description": [ "error" ],
     "template-curly-spacing": [ "error", "never" ],

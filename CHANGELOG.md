@@ -7,10 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changes
+
+- **pat**: Enable the `allowSeparatedGroups` option to the [`sort-imports`][sort-imports] rule.
+
 ### Dependencies
 
 - Move all plugins to `optionalDependencies`. This way you're only alerted to the ones you need based on which config you're using.
 - upgrade `eslint@7.5.0`
+
+[sort-imports]: https://eslint.org/docs/rules/sort-imports
 
 ## [v2.3.0][v2.3.0] - 2020-06-24
 

@@ -21,6 +21,9 @@ module.exports = {
       "jsx": false,
     },
   },
+  "globals": {
+    "expect": "readonly",
+  },
   "rules": {
     // ESLint overrides.
     "no-magic-numbers": [ "off" ],

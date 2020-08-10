@@ -24,6 +24,8 @@ module.exports = {
   "rules": {
     // ESLint overrides.
     "no-magic-numbers": [ "off" ],
+    'no-unused-expressions': [ 'off' ],
+    'max-lines': [ 'off' ],
 
     // Mocha rules.
     "mocha/max-top-level-suites": [ "error", { "limit": 1 }],
@@ -38,5 +40,6 @@ module.exports = {
     "mocha/no-sibling-hooks": [ "error" ],
     "mocha/no-skipped-tests": [ "error" ],
     "mocha/no-top-level-hooks": [ "error" ],
+    "mocha/no-exports": [ "error" ],
   },
 }

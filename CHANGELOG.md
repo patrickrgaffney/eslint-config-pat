@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.1.0][v4.1.0] - 2020-08-10
+
+### Added
+
+- **pat/mocha:** new Mocha rules [`no-exports`][mocha/no-exports].
+
+### Changes
+
+- **pat**: change [`complexity`][complexity] limit to 6.
+- **pat/mocha**: disable ESLint rules `no-unused-expressions` and `max-lines`.
+
+### Dependencies
+
+- upgrade `eslint@7.6.0`
+- upgrade `eslint-plugin-mocha@8.0.0`
+
+[complexity]: https://eslint.org/docs/rules/complexity
+[mocha/no-exports]: https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-exports.md
+
 ## [v4.0.0][v4.0.0] - 2020-07-21
 
 ### Changes
@@ -113,6 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial public release.
 
 
+[v4.1.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v4.1.0
 [v4.0.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v4.0.0
 [v2.3.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v2.3.0
 [v2.2.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v2.2.0

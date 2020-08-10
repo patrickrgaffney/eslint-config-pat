@@ -22,7 +22,7 @@
   "author": "Pat Gaffney <pat@hypepat.com>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=7.5.0"
+    "eslint": ">=7.6.0"
   },
   "optionalDependencies": {
     "eslint-plugin-mocha": ">=7.0.1",

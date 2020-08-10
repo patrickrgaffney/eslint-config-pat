@@ -73,7 +73,7 @@ module.exports = {
     "array-callback-return": [ "error" ],
     "block-scoped-var": [ "error" ],
     "class-methods-use-this": [ "error" ],
-    "complexity": [ "error", { "max": 5 }],
+    "complexity": [ "error", { "max": 6 }],
     "consistent-return": [ "error", { "treatUndefinedAsUnspecified": false }],
     "curly": [ "error", "all" ],
     "default-case": [ "error" ],

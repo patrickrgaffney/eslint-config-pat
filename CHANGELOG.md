@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **pat/mocha:** `expect` defined as a `readonly` global.
 
+### Dependencies
+
+- upgrade `eslint@7.7.0`
+
 ## [v4.1.0][v4.1.0] - 2020-08-10
 
 ### Added

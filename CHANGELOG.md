@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changes
 
+- ECMA version is now `2021`.
 - Add all RFC-standard HTTP status codes to `no-magic-numbers` ignore list.
 
 ### Fixes

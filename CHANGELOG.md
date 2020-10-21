@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - **pat:** Set new `ignoreDefaultValues` option on `no-magic-numbers`.
+- **pat/react:** Set new `allow: as-needed` option on `react/jsx-filename-extension`.
 
 ### Changes
 

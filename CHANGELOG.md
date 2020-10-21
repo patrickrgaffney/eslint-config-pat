@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `pat/mocha` now extends `pat` base config.
 
+### Dependencies
+
+- upgrade `eslint@7.11.0`
+
 ## [v4.2.0][v4.2.0] - 2020-08-15
 
 ### Added

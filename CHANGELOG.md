@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add all RFC-standard HTTP status codes to `no-magic-numbers` ignore list.
 
+### Fixes
+
+- `pat/mocha` now extends `pat` base config.
+
 ## [v4.2.0][v4.2.0] - 2020-08-15
 
 ### Added

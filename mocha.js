@@ -7,6 +7,7 @@
  */
 
 module.exports = {
+  "extends": "pat",
   "env": {
     "mocha": true,
     "node": true,

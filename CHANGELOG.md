@@ -7,10 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- **pat:** Set new `ignoreDefaultValues` option on `no-magic-numbers`.
+
 ### Changes
 
-- ECMA version is now `2021`.
-- Add all RFC-standard HTTP status codes to `no-magic-numbers` ignore list.
+- **pat:** ECMA version is now `2021`.
+- **pat:** Add all RFC-standard HTTP status codes to `no-magic-numbers` ignore list.
 
 ### Fixes
 

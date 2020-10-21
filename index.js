@@ -130,6 +130,7 @@ module.exports = {
       ],
       "enforceConst": true,
       "detectObjects": false,
+      "ignoreDefaultValues": true,
     }],
     "no-multi-spaces": [ "error", { "ignoreEOLComments": false }],
     "no-multi-str": [ "error" ],

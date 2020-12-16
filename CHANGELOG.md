@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **pat/node:** Don't warn on import of `lodash`.
 
+### Dependencies
+
+- upgrade `eslint@7.15.0`
+
 ## [v4.3.0][v4.3.0] - 2020-10-20
 
 ### Added

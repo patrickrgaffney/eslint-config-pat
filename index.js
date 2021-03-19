@@ -156,6 +156,7 @@ module.exports = {
       "allowShortCircuit": false,
       "allowTernary": false,
       "allowTaggedTemplates": false,
+      "enforceForJSX": false,
     }],
     "no-unused-labels": [ "error" ],
     "no-useless-call": [ "error" ],

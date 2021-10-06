@@ -12,7 +12,7 @@ module.exports = {
   },
   "plugins": [],
   "parserOptions": {
-    "ecmaVersion": 2021,
+    "ecmaVersion": "latest",
     "sourceType": "module",
     "ecmaFeatures": {
       "globalReturn": false,

@@ -36,7 +36,6 @@ module.exports = {
     "mocha/no-async-describe": [ "error" ],
     "mocha/no-exclusive-tests": [ "error" ],
     "mocha/no-global-tests": [ "error" ],
-    "mocha/no-hooks-for-single-case": [ "error" ],
     "mocha/no-identical-title": [ "error" ],
     "mocha/no-nested-tests": [ "error" ],
     "mocha/no-pending-tests": [ "error" ],

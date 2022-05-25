@@ -57,6 +57,7 @@ module.exports = {
     "react/no-unused-prop-types": [ "error" ],
     "react/no-unused-state": [ "error" ],
     "react/no-will-update-set-state": [ "error" ],
+    "react/prefer-exact-props": [ "error" ],
     "react/react-in-jsx-scope": [ "error" ],
     "react/require-render-return": [ "error" ],
     "react/self-closing-comp": [ "error" ],
@@ -66,6 +67,12 @@ module.exports = {
     "react/static-property-placement": [ "error", "static public field" ],
     "react/style-prop-object": [ "error" ],
     "react/void-dom-elements-no-children": [ "error" ],
+    "react/hook-use-state": [ "error" ],
+    "react/no-arrow-function-lifecycle": [ "error" ],
+    "react/no-invalid-html-attribute": [ "error" ],
+    "react/no-namespace": [ "error" ],
+    "react/no-unstable-nested-components": [ "error" ],
+    "react/no-unused-class-component-methods": [ "error" ],
 
     // React: JSX Style
     "react/jsx-boolean-value": [ "error" ],
@@ -107,11 +114,5 @@ module.exports = {
       "logical": "parens-new-line",
       "prop": "parens-new-line"
     }],
-    "react/no-arrow-function-lifecycle": [ "error" ],
-    "react/no-invalid-html-attribute": [ "error" ],
-    "react/no-namespace": [ "error" ],
-    "react/no-unstable-nested-components": [ "error" ],
-    "react/no-unused-class-component-methods": [ "error" ],
-    "react/prefer-exact-props": [ "error" ],
   },
 }

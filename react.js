@@ -108,6 +108,7 @@ module.exports = {
       "prop": "parens-new-line"
     }],
     "react/no-arrow-function-lifecycle": [ "error" ],
+    "react/no-invalid-html-attribute": [ "error" ],
     "react/no-namespace": [ "error" ],
     "react/no-unstable-nested-components": [ "error" ],
     "react/no-unused-class-component-methods": [ "error" ],

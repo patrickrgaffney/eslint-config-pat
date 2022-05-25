@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '12', '13', '14' ]
+        node: [ '16', '17', '18' ]
     steps:
       - name: "Check out source code"
         uses: actions/checkout@v2

@@ -90,6 +90,7 @@ module.exports = {
     "react/jsx-no-target-blank": [ "error" ],
     "react/jsx-no-undef": [ "error" ],
     "react/no-unstable-nested-components": [ "error" ],
+    "react/prefer-exact-props": [ "error" ],
     "react/jsx-no-useless-fragment": [ "error" ],
     "react/jsx-one-expression-per-line": [ "error", { "allow": "single-child" }],
     "react/jsx-pascal-case": [ "error" ],

@@ -27,6 +27,6 @@
   "optionalDependencies": {
     "eslint-plugin-mocha": ">=9.0.0",
     "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-react": ">=7.21.0"
+    "eslint-plugin-react": ">=7.22.0"
   }
 }

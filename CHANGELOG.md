@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v5.0.0][v5.0.0] - 2022-05-25
+
+### Changes
+
+- **pat**: Add `no-constant-binary-expression` rule.
+- **pat**: Add `no-unused-private-class-members` rule.
+- **pat**: Add `prefer-object-has-own` rule.
+- **pat/mocha**: Add `mocha/no-empty-description` rule.
+- **pat/react**: Add `react/prefer-exact-props` rule.
+- **pat/react**: Add `react/hook-use-state` rule.
+- **pat/react**: Add `react/no-arrow-function-lifecycle` rule.
+- **pat/react**: Add `react/no-invalid-html-attribute` rule.
+- **pat/react**: Add `react/no-namespace` rule.
+- **pat/react**: Add `react/no-unstable-nested-components` rule.
+- **pat/react**: Add `react/no-unused-class-component-methods` rule.
+- **pat/react**: Add `react/iframe-missing-sandbox` rule.
+- **pat/react**: Add `react/jsx-key` rule.
+- **pat/react**: Add `react/jsx-newline` rule.
+- **pat/react**: Add `react/jsx-no-constructed-context-values` rule.
+- **pat/react**: Add `react/jsx-no-leaked-render` rule.
+
+### Dependencies
+
+- require `node >= 16.x`
+- upgrade `eslint@8.16.0`
+- upgrade `eslint-plugin-mocha@10.0.0`
+- upgrade `eslint-plugin-react@7.30.0`
+
 ## [v4.6.0][v4.6.0] - 2021-10-06
 
 ### Changes
@@ -205,7 +233,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Initial public release.
 
-
+[v5.0.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v5.0.0
 [v4.6.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v4.6.0
 [v4.5.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v4.5.0
 [v4.4.0]: https://github.com/patrickrgaffney/eslint-config-pat/releases/tag/v4.4.0

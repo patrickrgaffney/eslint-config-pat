@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pat",
-  "version": "4.6.0",
+  "version": "5.0.0",
   "description": "Pat-specific ESLint config. Same great taste, same low price.",
   "main": "index.js",
   "scripts": {

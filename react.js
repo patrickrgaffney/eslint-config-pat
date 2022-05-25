@@ -82,6 +82,7 @@ module.exports = {
     "react/jsx-indent": [ "error", 2 ],
     "react/jsx-indent-props": [ "error", 2 ],
     "react/jsx-key": [ "error", { "warnOnDuplicates": true }],
+    "react/jsx-newline": [ "error" ],
     "react/jsx-no-comment-textnodes": [ "error" ],
     "react/jsx-no-duplicate-props": [ "error" ],
     "react/jsx-no-script-url": [ "error" ],

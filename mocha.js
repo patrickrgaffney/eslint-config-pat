@@ -45,5 +45,6 @@ module.exports = {
     "mocha/no-skipped-tests": [ "error" ],
     "mocha/no-top-level-hooks": [ "error" ],
     "mocha/no-exports": [ "error" ],
+    "mocha/no-empty-description": [ "error" ],
   },
 }

@@ -115,5 +115,6 @@ module.exports = {
       "logical": "parens-new-line",
       "prop": "parens-new-line"
     }],
+    "react/jsx-no-leaked-render": [ "error" ],
   },
 }

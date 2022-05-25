@@ -84,6 +84,7 @@ module.exports = {
     "react/jsx-key": [ "error", { "warnOnDuplicates": true }],
     "react/jsx-newline": [ "error" ],
     "react/jsx-no-comment-textnodes": [ "error" ],
+    "react/jsx-no-constructed-context-values": [ "error" ],
     "react/jsx-no-duplicate-props": [ "error" ],
     "react/jsx-no-script-url": [ "error" ],
     "react/jsx-no-target-blank": [ "error" ],

@@ -73,6 +73,7 @@ module.exports = {
     "react/no-namespace": [ "error" ],
     "react/no-unstable-nested-components": [ "error" ],
     "react/no-unused-class-component-methods": [ "error" ],
+    "react/iframe-missing-sandbox": [ "error" ],
 
     // React: JSX Style
     "react/jsx-boolean-value": [ "error" ],
